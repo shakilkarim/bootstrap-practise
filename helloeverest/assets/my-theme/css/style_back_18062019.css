@@ -1,0 +1,205 @@
+/*
+Theme Name: Everest
+Theme URI: http://evertechit.com
+Author: Evertech IT
+Author URI: http://evertechit.com
+Description: Another Awesome website Template
+Version: 1.0
+Text Domain: everest
+
+*/
+
+
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+
+
+
+.special-navi a span {
+    display: block;
+}
+
+.special-navi a {
+    display: inline-block;
+    text-align: center;
+    margin-right:  12px;
+    line-height: 1.3;
+}
+
+.special-navi {
+    margin-right: 51px;
+}
+
+.ms-loading-container .ms-loading, .ms-slide .ms-slide-loading { 
+	background-image: none !important; 
+	background-color: transparent !important; 
+	box-shadow: none !important; 
+} 
+
+#header .logo { max-width: 170px; } 
+
+@media (min-width: 1200px) { #header .logo { max-width: 250px; } } 
+@media (max-width: 991px) { #header .logo { max-width: 110px; } } 
+@media (max-width: 767px) { #header .logo { max-width: 110px; } } 
+#header.sticky-header .logo { max-width: 100px; }
+
+
+.special-navi a span {
+    display: block;
+    color: #009fb5;
+}
+.special-navi a {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.3;
+    vertical-align: middle;
+    border: 1px solid #eae3e3;
+    padding: 5px 9px;
+    margin-right: 3px;
+    border-radius: 2px;
+    color: #443c3c;
+}
+.special-navi {
+    right: 28px;
+    position: relative;
+    top: 13px;
+}
+.header-minicart-arrow-alt {
+    position: relative;
+    display: inline-block;
+    top: -13px;
+}
+#footer {
+    font-size: 1.05em;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    position:  absolute;
+    right:  0;
+    top: 0;
+    text-align:  inherit;
+}
+
+.n-letter-wrap {
+    position: relative;
+}
+
+
+.vc_custom_1532265780189{margin-bottom: 0px !important;}
+.vc_custom_1524032594644{margin-top: 10px !important;margin-bottom: 0px !important;}
+.vc_custom_1524032453338{margin-bottom: 0px !important;}
+.vc_custom_1532265815155{margin-top: 10px !important;}
+.home_slider ul{
+	display:block !important;
+}
+.home_slider.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled{
+	display:block;
+}
+.home_slider.owl-carousel .owl-nav {
+	top: 35%;
+	position: absolute;
+	margin-top:0px;
+	width: 100%;
+}
+
+
+.home_slider.owl-carousel .owl-nav [class*="owl-"] {
+	cursor: pointer;
+	background: #000; 
+	background: rgba(0,0,0,.5);
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	color:#0aa1b5;
+	font-size:15px;
+	font-weight:600;
+}
+.home_slider.owl-carousel .owl-nav [class*="owl-"]:hover{
+	background: rgba(0,0,0,.8);
+}
+.home_slider.owl-carousel .owl-nav .owl-prev{
+	left:20px;
+}
+.home_slider.owl-carousel .owl-nav .owl-next{
+	right:20px;
+}
+.home_slider.owl-carousel .owl-nav .owl-prev:before {
+	font-family: "Porto";
+	content: "\e819";
+	position: relative;
+	left: -2px;
+	top: 4px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.home_slider.owl-carousel .owl-nav .owl-next:before {
+	font-family: "Porto";
+	content: "\e81a";
+	position: relative;
+	left: 1px;
+	top: 3px;
+	font-size: 20px;
+	font-weight: 600;
+}
+#header .header-left{
+	float: left;
+}
+
+.products.products-slider.owl-carousel.show-nav-title.pcols-lg-5.pcols-md-4.pcols-xs-2.pcols-ls-1.pwidth-lg-5.pwidth-md-4.pwidth-xs-2.pwidth-ls-1.owl-loaded.owl-drag {
+	max-height: 497px;
+}
+#header .top-links > li.menu-item {
+	display: inline-block;
+	margin-left: -30px;
+	float: left;
+}
+
+
+/* ====== my  cart coustom css =========*/
+
+.dropup, .dropright, .dropdown, .dropleft {
+	position: relative;
+}
+
+.dropdown-toggle {
+	white-space: nowrap;
+}
+
+.badge-secondary {
+	color: #212529;
+	background-color: #F0CA4D;
+}
+.badge {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0;
+	-webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.dropdown-toggle {
+	white-space: nowrap;
+}
+.top-right-list {
+	position: relative;
+	right: 0px;
+	width: 105px;
+}
+
+.container-fluid-slider {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}

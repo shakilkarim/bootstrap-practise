@@ -1,0 +1,19 @@
+#event_list{
+	background-color:#ffffff;
+	padding:50px 0px;
+}
+.event_heading{}
+.event_heading h2{
+	font-weight: 10 !important;
+}
+.event_heading p {
+	float: right;
+	/*margin-right: 10px;*/
+	margin-top: -35px;
+}
+.event_heading p a {
+	color: #000;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 300 !important;
+}
